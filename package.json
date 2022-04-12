@@ -1,0 +1,11 @@
+{
+  "name": "RJUWebsite",
+  "version": "0.0.1",
+  "description": "My Website",
+  "main": "index.js",
+  "scripts": {
+  
+  },
+  "author": "RealJJUniverse",
+  "license": "ISC"
+}
