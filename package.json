@@ -4,7 +4,8 @@
   "description": "My Website",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "app.js"
+    "nodemon": "nodemon app.js"
   },
   "author": "RealJJUniverse",
   "license": "ISC",
