@@ -1,11 +1,11 @@
 {
   "name": "RJUWebsite",
-  "version": "1.1",
+  "version": "1.1.0",
   "description": "My Website",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "app.js"
-    "nodemon": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "author": "RealJJUniverse",
   "license": "ISC",
