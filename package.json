@@ -1,6 +1,6 @@
 {
   "name": "RJUWebsite",
-  "version": "1.1.0",
+  "version": "0.2.1",
   "description": "My Website",
   "main": "app.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "RealJJUniverse",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.6",
+    "ejs": "^3.0.2",
     "express": "^4.17.3"
   },
   "devDependencies": {
