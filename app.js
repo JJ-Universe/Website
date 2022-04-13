@@ -11,20 +11,20 @@ app.use("/music", express.static(__dirname + "public/music"))
 app.set("views", "./views")
 app.set("view engine", "ejs")
 
-app.get("", (req) => {
+app.get("", (req, res) => {
   res.render("home")
 })
 
-app.get("/home", (req) => {
+app.get("/home", (req, res) => {
   res.render("home")
 })
-app.get("/about", (req) => {
+app.get("/about", (req, res) => {
   res.render("about")
 })
-app.get("/music/home", (req) => {
+app.get("/music/home", (req, res) => {
   res.render("music/selection")
 })
-app.get("/music/player", (req) => {
+app.get("/music/player", (req, res) => {
   res.render("music/player/index")
 })
 
