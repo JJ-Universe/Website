@@ -12,20 +12,15 @@ app.set("views", "./views")
 app.set("view engine", "ejs")
 
 app.get("", (req, res) => {
-  res.render("home")
+  res.render("comingsoon")
+})
+
+app.get("/comingsoon", (req, res) => {
+  res.render("comingsoon")
 })
 
 app.get("/home", (req, res) => {
   res.render("home")
-})
-app.get("/about", (req, res) => {
-  res.render("about")
-})
-app.get("/music/home", (req, res) => {
-  res.render("music/selection")
-})
-app.get("/music/player", (req, res) => {
-  res.render("music/player/index")
 })
 
 app.listen(port, () => console.info(`Listening on port ${port}`))
