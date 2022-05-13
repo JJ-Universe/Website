@@ -1,8 +1,8 @@
 const express = require("express")
 const path = require("path")
 
-const home = require("./router/home")
-const music = require("./router/music")
+const home = require("./route/home")
+const music = require("./route/music")
 
 const app = express()
 const port = process.env.PORT || 5000
